@@ -1,0 +1,3 @@
+Convertendo link de sharing para download:
+de: https://drive.google.com/file/d/	/view?usp=sharing
+para: https://drive.google.com/u/0/uc?id=	&export=download
