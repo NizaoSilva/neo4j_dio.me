@@ -1,0 +1,11 @@
+post_id,author_id,content,created_at
+p1,u2,"Como otimizar queries no Neo4j: 5 dicas rápidas",2025-09-02
+p2,u1,"Visualizando redes com Python e NetworkX",2025-09-10
+p3,u3,"Criando uma campanha de marketing de sucesso",2025-10-01
+p4,u5,"Como mapear vulnerabilidades em comunidades locais",2025-09-27
+p5,u14,"Explicando PageRank em grafos sociais",2025-10-12
+p6,u12,"Playlist da semana: indie e eletrônico",2025-10-05
+p7,u2,"Benchmark: import CSV vs neo4j-admin import",2025-10-20
+p8,u19,"Próximo encontro do grupo Community Support",2025-10-15
+p9,u6,"Roteiro de estudos: algoritmos e estruturas de dados",2025-09-18
+p10,u11,"Tendências em UX para 2026",2025-10-22

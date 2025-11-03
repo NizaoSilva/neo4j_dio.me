@@ -1,0 +1,14 @@
+user_id,group_id,role,joined_at
+u2,g1,moderator,2024-01-15
+u14,g1,member,2024-02-01
+u7,g1,member,2024-03-10
+u12,g2,member,2023-11-06
+u6,g2,member,2023-11-06
+u1,g2,member,2024-05-01
+u5,g3,admin,2022-09-01
+u13,g3,member,2022-09-05
+u16,g4,moderator,2023-04-01
+u4,g4,member,2023-04-02
+u11,g5,admin,2024-06-01
+u17,g5,member,2024-06-15
+u19,g3,member,2022-10-01

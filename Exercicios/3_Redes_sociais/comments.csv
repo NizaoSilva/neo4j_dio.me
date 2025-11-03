@@ -1,0 +1,11 @@
+comment_id,post_id,author_id,content,created_at
+c1,p1,u14,"Ótimas dicas! Testei a 2 e melhorou bastante.",2025-09-03
+c2,p2,u12,"Valeu pelo notebook, muito útil.",2025-09-11
+c3,p3,u11,"Boa estratégia de segmentação!",2025-10-02
+c4,p4,u13,"Posso ajudar com contatos locais.",2025-09-28
+c5,p5,u7,"Explicação clara — e o exemplo numérico ajudou.",2025-10-13
+c6,p6,u17,"Adorei a seleção 🔥",2025-10-06
+c7,p1,u10,"Concordo, a dica 4 é essencial.",2025-09-04
+c8,p8,u5,"Confirmo presença no encontro.",2025-10-16
+c9,p9,u6,"Segue meu repositório com exercícios.",2025-09-19
+c10,p7,u2,"Adicionei benchs com 1M de nós.",2025-10-21

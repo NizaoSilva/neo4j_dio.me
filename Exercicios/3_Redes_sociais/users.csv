@@ -1,0 +1,21 @@
+user_id,name,age,city,occupation,interests
+u1,Ana Silva,29,Jacarezinho,Data Analyst,Python;Graphs;Music
+u2,Bruno Costa,35,Piraju,Software Engineer,Neo4j;Databases;Soccer
+u3,Carla Pereira,24,São Paulo,Marketing,Design;Influence;Music
+u4,Diego Rocha,42,Campinas,Product Manager,Business;Startups
+u5,Elisa Gomes,31,Jacarezinho,Social Worker,Policy;Community;Health
+u6,Felipe Alves,27,Piraju,Student,Algorithms;Music
+u7,Gisele Santos,38,São Paulo,Researcher,Graphs;Science
+u8,Hugo Lima,22,Jacarezinho,Intern,Python;Football
+u9,Ivana Ribeiro,45,Campinas,HR,People;Recruiting
+u10,João Martins,33,Piraju,DevOps,Cloud;Linux
+u11,Karen Duarte,28,São Paulo,Designer,UX;Design;Photos
+u12,Lucas Nogueira,30,Jacarezinho,Developer,JS;Music
+u13,Maria Oliveira,40,Campinas,Teacher,Education;Community
+u14,Nando Ferreira,26,São Paulo,Data Scientist,ML;Graphs
+u15,Olga Pinto,50,Jacarezinho,Counselor,Health;Community
+u16,Paulo Costa,37,Piraju,Entrepreneur,Business;Startups
+u17,Queila Ramos,23,São Paulo,Student,Design;Music
+u18,Rafael Torres,34,Campinas,Analyst,Finance;Data
+u19,Susana Melo,29,Piraju,Community Manager,Events;Groups
+u20,Thiago Souza,41,São Paulo,Engineer,Networks;Systems
