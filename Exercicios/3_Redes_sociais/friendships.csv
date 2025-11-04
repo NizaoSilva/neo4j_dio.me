@@ -1,21 +1,23 @@
-user_id,name,age,city,occupation,interests
-u1,Ana Silva,29,Jacarezinho,Data Analyst,Python;Graphs;Music
-u2,Bruno Costa,35,Piraju,Software Engineer,Neo4j;Databases;Soccer
-u3,Carla Pereira,24,São Paulo,Marketing,Design;Influence;Music
-u4,Diego Rocha,42,Campinas,Product Manager,Business;Startups
-u5,Elisa Gomes,31,Jacarezinho,Social Worker,Policy;Community;Health
-u6,Felipe Alves,27,Piraju,Student,Algorithms;Music
-u7,Gisele Santos,38,São Paulo,Researcher,Graphs;Science
-u8,Hugo Lima,22,Jacarezinho,Intern,Python;Football
-u9,Ivana Ribeiro,45,Campinas,HR,People;Recruiting
-u10,João Martins,33,Piraju,DevOps,Cloud;Linux
-u11,Karen Duarte,28,São Paulo,Designer,UX;Design;Photos
-u12,Lucas Nogueira,30,Jacarezinho,Developer,JS;Music
-u13,Maria Oliveira,40,Campinas,Teacher,Education;Community
-u14,Nando Ferreira,26,São Paulo,Data Scientist,ML;Graphs
-u15,Olga Pinto,50,Jacarezinho,Counselor,Health;Community
-u16,Paulo Costa,37,Piraju,Entrepreneur,Business;Startups
-u17,Queila Ramos,23,São Paulo,Student,Design;Music
-u18,Rafael Torres,34,Campinas,Analyst,Finance;Data
-u19,Susana Melo,29,Piraju,Community Manager,Events;Groups
-u20,Thiago Souza,41,São Paulo,Engineer,Networks;Systems
+user_a,user_b,since,strength
+u1,u2,2019-05-10,0.8
+u1,u3,2020-11-02,0.4
+u2,u7,2018-07-14,0.6
+u2,u12,2021-02-20,0.7
+u3,u11,2023-06-01,0.5
+u4,u16,2017-09-15,0.9
+u5,u13,2016-10-20,0.95
+u6,u9,2022-01-12,0.3
+u7,u14,2020-12-30,0.6
+u8,u12,2024-03-05,0.4
+u9,u15,2015-04-18,0.7
+u10,u2,2019-01-01,0.5
+u11,u17,2023-09-10,0.6
+u12,u14,2022-11-11,0.65
+u13,u5,2018-02-02,0.85
+u14,u1,2021-08-08,0.55
+u15,u5,2014-06-06,0.9
+u16,u4,2017-09-15,0.9
+u17,u3,2024-01-20,0.35
+u18,u2,2020-04-04,0.45
+u19,u5,2022-07-01,0.5
+u20,u10,2010-10-10,0.6
