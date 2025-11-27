@@ -1,0 +1,101 @@
+1. Node Package Manager para pré-configurar:
+npm init -y
+
+2. Instalar neo4j graphql, apollo-server, neo4j-driver:
+npm install @neo4j/graphql graphql apollo-server neo4j-driver
+
+3. Criar arquivo index.js para definir schemas do banco de dados
+
+4. Para iniciar o serviço:
+node .\index.js
+
+5. Comando para index_v0:
+query BuscarTodosFilmes {
+  movies {
+    title
+    released
+  }
+}
+
+6. Comando para index_v1:
+query {
+  people (where: {
+    name:{eq: "Tom Hanks"}
+  }, sort: [ {
+    name: ASC
+  }]) {
+    name
+    born
+    movies (sort: [ {
+      released: ASC
+    }], limit: 1){
+      title
+      released
+    }
+  }
+}
+
+7. Comando para index_1:
+mutation {
+  updateMovies(
+    where: { title: {eq: "The Polar Express" }}
+    update: {
+      people: {
+        disconnect: {
+          where: { node: { name: {eq: "Tom Hanks" }} }
+        }
+      }
+    }
+  ) {
+    movies {
+      title
+      people {
+        name
+      }
+    }
+  }
+}
+
+mutation {
+  deleteMovies(where: { title: {eq: "The Polar Express"} }) {
+    nodesDeleted
+    relationshipsDeleted
+  }
+}
+
+mutation {
+  deletePeople(where: { name: {eq: "Tom Hanks" }}) {
+    nodesDeleted
+    relationshipsDeleted
+  }
+}
+
+mutation {
+  createMovies(input: [
+    {
+      title: "O Náufrago",
+      released: 2000,
+      tagline: "Na luta pela sobrevivência, ele encontrou a si mesmo.",
+      genero: "Drama",
+      people: {
+        create: [
+          {
+            node: {
+              name: "Tom Hanks",
+              born: 1956
+            }
+          }
+        ]
+      }
+    }
+  ]) {
+    movies {
+      title
+      people {
+        name
+      }
+    }
+  }
+}
+
+8. Comando para index_2:
